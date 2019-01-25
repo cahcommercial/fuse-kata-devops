@@ -18,9 +18,9 @@
   
       ## Amazon Web Services (AWS)
       * In this section you need to create an Ubuntu AWS EC2 instance where the following sections' artifacts will be deployed to:
-        *   Build an amazon node (t2.micro is sufficient) using Ubuntu 14.04 with a public IP address 
-        *   Secure it (aside from your local ip or jump box)- expose ports 22, 80, and 8080 to the following IP: 52.7.76.128
-        *  Create a local account which has the ability to login via SSH and sudo to root.  This account will be used to verify the configurations of the host.
+        * Build an amazon node (t2.micro is sufficient) using Ubuntu 14.04 with a public IP address 
+        * Secure it (aside from your local ip or jump box)- expose ports 22, 80, and 8080 to the following IP: 52.7.76.128
+        * Create a local account which has the ability to login via SSH and sudo to root.  This account will be used to verify the configurations of the host.
 
     ## Chef
     * In this section you will write and deploy a simple Chef cookbook that installs and configures Apache.
@@ -48,20 +48,21 @@
       * Only the IP listed above should be able to access ports 22, 80 and 8080.  No other ports should be open to the internet.
       * Accessing the server on port 8080 should redirect to port 80 and display the information from fuse.html
  
+ 
 ## Windows Cloud Automation Engineer
 
 * Write 3 Microsoft Powershell scripts which will satisfy the following requirements:
 
-*	Use DSC and powershell to push configuration mofs that will:
-  *	Execute a powershell script that runs Tues, Thursday and Saturday at 8AM
-  *Ensure the following exists in the registry, “HKLM\System\DSCTest”, with a dword named “BuildNumber” that contains the value of 1
+  *	Use DSC and powershell to push configuration mofs that will:
+    *	Execute a powershell script that runs Tues, Thursday and Saturday at 8AM
+    * Ensure the following exists in the registry, “HKLM\System\DSCTest”, with a dword named “BuildNumber” that contains the value of 1
 
-*	Use powershell and AWS to backup files:
-  *	Copy all databasebackupXX.bak files from any folders under E:\Backups to D:\MovetoS3. When doing so, organize the D:\MovetoS3 how you see fit
-  *	Move any backup files older than 90 days  to an S3 bucket named S3-backups-123. Again, organize how you see fit.
+  *	Use powershell and AWS to backup files:
+    *	Copy all databasebackupXX.bak files from any folders under E:\Backups to D:\MovetoS3. When doing so, organize the D:\MovetoS3 how you see fit
+    *	Move any backup files older than 90 days  to an S3 bucket named S3-backups-123. Again, organize how you see fit.
 
-*	Create a powershell script to install 3 different apps, (app1.msi, app2.exe, app3.msi) without user interaction, and ensure the process is logged to C:\Temp\TriApp-Install.log:
-  *	The apps must be installed in order, as they are dependent on the earlier installs.
-  * If any app fails to install, stop the installation and report the error in the log.
+  *	Create a powershell script to install 3 different apps, (app1.msi, app2.exe, app3.msi) without user interaction, and ensure the process is logged to C:\Temp\TriApp-Install.log:
+    *	The apps must be installed in order, as they are dependent on the earlier installs.
+    * If any app fails to install, stop the installation and report the error in the log.
 
 
