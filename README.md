@@ -16,14 +16,14 @@
   
   ## Kata Instructions
   
-  ## Amazon Web Services (AWS)
+    ## Amazon Web Services (AWS)
     * In this section you need to create an Ubuntu AWS EC2 instance where the following sections' artifacts will be deployed to:
       *   Build an amazon node (t2.micro is sufficient) using Ubuntu 14.04 with a public IP address 
       *   Secure it (aside from your local ip or jump box)
       * 1.   Expose ports 22, 80, and 8080 to the following IP: 52.7.76.128
       *  Create a local account which has the ability to login via SSH and sudo to root.  This account will be used to verify the configurations of the host.
 
-  ##Chef
+    ## Chef
     * In this section you will write and deploy a simple Chef cookbook that installs and configures Apache.
       * Write a Chef cookbook that performs the following tasks:
           * Install Apache HTTP Server
@@ -36,15 +36,16 @@
     * Run the Chef cookbook with chef-solo on the server
       * 1.  Write the results of the chef run to a log file, as this is needed for the link in fuse.html
 
-  ## Docker
+    ## Docker
     * In this section you will write and deploy a Dockerfile: 
-1.    Create a Dockerfile that meets the following requirements:
-·         Ubuntu 14.04 base image
-·         Installs NGINX
-·         Configures NGINX to redirect the browser from port 8080 to port 80
-·         Exposes port 8080 for the container
-2.    Build and run the docker container in detached mode, exposing port 8080 on the EC2 instance
-End result
+      * Create a Dockerfile that meets the following requirements:
+        * Ubuntu 14.04 base image
+        * Installs NGINX
+        * Configures NGINX to redirect the browser from port 8080 to port 80
+        * Exposes port 8080 for the container
+        * Build and run the docker container in detached mode, exposing port 8080 on the EC2 instance
+
+## End result
 Only the IP listed above should be able to access ports 22, 80 and 8080.  No other ports should be open to the internet.
 Accessing the server on port 8080 should redirect to port 80 and display the information from fuse.html
  
