@@ -20,8 +20,5 @@ a.     Expose ports 22, 80, and 8080 to the following IP: 52.7.76.128
 
 ## Available Kata's
 
-* [Bowling](http://codingdojo.org/kata/Bowling/) -- [Secondary Link](https://github.com/jonschoning/codingdojo/blob/master/html/kataBowling.html)
+* [Linux Automation Engineer](https://github.com/cahcommercial/fuse-kata-devops/blob/master/README.md#linux-engineer-instructions) 
 * [GameOfLife](http://codingdojo.org/kata/GameOfLife/) -- [Secondary Link](https://github.com/jonschoning/codingdojo/blob/master/html/kataGameOfLife.html)
-* [Minesweeper](http://codingdojo.org/kata/Minesweeper/) -- [Secondary Link](https://github.com/jonschoning/codingdojo/blob/master/html/kataMinesweeper.html)
-* [PacMan](http://codingdojo.org/kata/PacMan/) -- [Secondary Link](https://github.com/jonschoning/codingdojo/blob/master/html/kataPacMan.html)
-* [PokerHands](http://codingdojo.org/kata/PokerHands/) -- [Secondary Link](https://github.com/jonschoning/codingdojo/blob/master/html/kataPokerHands.html)
