@@ -6,8 +6,12 @@
 * When submitting, please let us know what kata requirements were implemented.
 * Spend no more than two hours on tha kata.
 
+## Available Kata's
+* [Linux Automation Engineer](https://github.com/cahcommercial/fuse-kata-devops/blob/master/README.md#linux-engineer-instructions) 
+* [Windows Automation Engineer](http://codingdojo.org/kata/GameOfLife/) -- [Secondary Link](https://github.com/jonschoning/codingdojo/blob/master/html/kataGameOfLife.html)
 
-## [Linux Engineer Instructions]
+
+## [Linux Engineer Instructions
 
 * The technical exercise for a Fuse Linux DevOps Automation Engineer covers three technologies / concepts that are prevalent in the Fuse environment. In this exercise you will need to create a server in the AWS public cloud (preferably in your personal account), write a simple Chef cookbook, and write a simple Dockerfile. For Chef you will need to write a cookbook that installs an Apache web server listening on port 80, and for Docker you will need to build a containerized NGINX that listens on port 8080 and redirects to port 80 (the Apache web server). The Chef and Docker artifacts need to be deployed to the AWS instance you create, and Fuse will need SSH access to that instance to review the artifacts.
 
@@ -18,7 +22,6 @@ In this section you need to create an Ubuntu AWS EC2 instance where the followin
 a.     Expose ports 22, 80, and 8080 to the following IP: 52.7.76.128
 3.    Create a local account which has the ability to login via SSH and sudo to root.  This account will be used to verify the configurations of the host.
 
-## Available Kata's
+## [Windows Engineer Instructions
 
-* [Linux Automation Engineer](https://github.com/cahcommercial/fuse-kata-devops/blob/master/README.md#linux-engineer-instructions) 
-* [GameOfLife](http://codingdojo.org/kata/GameOfLife/) -- [Secondary Link](https://github.com/jonschoning/codingdojo/blob/master/html/kataGameOfLife.html)
+
