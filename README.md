@@ -50,4 +50,18 @@
  
 ## Windows Cloud Automation Engineer
 
+* Write 3 Microsoft Powershell scripts which will satisfy the following requirements:
+
+*	Use DSC and powershell to push configuration mofs that will:
+  *	Execute a powershell script that runs Tues, Thursday and Saturday at 8AM
+  *Ensure the following exists in the registry, “HKLM\System\DSCTest”, with a dword named “BuildNumber” that contains the value of 1
+
+*	Use powershell and AWS to backup files:
+  *	Copy all databasebackupXX.bak files from any folders under E:\Backups to D:\MovetoS3. When doing so, organize the D:\MovetoS3 how you see fit
+  *	Move any backup files older than 90 days  to an S3 bucket named S3-backups-123. Again, organize how you see fit.
+
+*	Create a powershell script to install 3 different apps, (app1.msi, app2.exe, app3.msi) without user interaction, and ensure the process is logged to C:\Temp\TriApp-Install.log:
+  *	The apps must be installed in order, as they are dependent on the earlier installs.
+  * If any app fails to install, stop the installation and report the error in the log.
+
 
