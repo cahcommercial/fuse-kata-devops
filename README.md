@@ -21,6 +21,31 @@
   * 1.    Expose ports 22, 80, and 8080 to the following IP: 52.7.76.128
   *  Create a local account which has the ability to login via SSH and sudo to root.  This account will be used to verify the configurations of the host.
 
+##Chef
+In this section you will write and deploy a simple Chef cookbook that installs and configures Apache.
+1.    Write a Chef cookbook that performs the following tasks:
+·         Install Apache HTTP Server
+·         Create a default HTML page named fuse.html that displays
+·         Hostname of your instance
+·         IP of your instance
+·         A link to the location containing the log output for the chef client execution. (Make sure the log can be downloaded.)
+·         Configure Apache to load fuse.html as the default page
+2.    Manually install the ChefDK on the server created in the AWS Web Services section
+3.    Run the Chef cookbook with chef-solo on the server
+a.     Write the results of the chef run to a log file, as this is needed for the link in fuse.html
+
+##Docker
+In this section you will write and deploy a Dockerfile 
+1.    Create a Dockerfile that meets the following requirements:
+·         Ubuntu 14.04 base image
+·         Installs NGINX
+·         Configures NGINX to redirect the browser from port 8080 to port 80
+·         Exposes port 8080 for the container
+2.    Build and run the docker container in detached mode, exposing port 8080 on the EC2 instance
+End result
+Only the IP listed above should be able to access ports 22, 80 and 8080.  No other ports should be open to the internet.
+Accessing the server on port 8080 should redirect to port 80 and display the information from fuse.html
+ 
 ## Windows Cloud Automation Engineer
 
 
