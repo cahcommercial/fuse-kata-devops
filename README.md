@@ -19,8 +19,7 @@
     ## Amazon Web Services (AWS)
     * In this section you need to create an Ubuntu AWS EC2 instance where the following sections' artifacts will be deployed to:
       *   Build an amazon node (t2.micro is sufficient) using Ubuntu 14.04 with a public IP address 
-      *   Secure it (aside from your local ip or jump box)
-      * 1.   Expose ports 22, 80, and 8080 to the following IP: 52.7.76.128
+      *   Secure it (aside from your local ip or jump box)- expose ports 22, 80, and 8080 to the following IP: 52.7.76.128
       *  Create a local account which has the ability to login via SSH and sudo to root.  This account will be used to verify the configurations of the host.
 
     ## Chef
