@@ -52,7 +52,7 @@
  
 ## Windows Cloud Automation Engineer
 
-    ## Kata Instructions
+   ## Kata Instructions
     
 * Write 3 Microsoft Powershell scripts which will satisfy the following requirements:
 
