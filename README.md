@@ -7,8 +7,8 @@
 * Spend no more than two hours on tha kata.
 
 ## Available Kata's
-* [Linux Cloud Automation Engineer](https://github.com/cahcommercial/fuse-kata-devops/blob/master/README.md#linux-engineer-instructions) 
-* [Windows Cloud Automation Engineer](https://github.com/cahcommercial/fuse-kata-devops/blob/master/README.md#windows-engineer-instructions)
+* [Linux Cloud Automation Engineer](https://github.com/cahcommercial/fuse-kata-devops/blob/master/README.md#linux-cloud-automation-engineer) 
+* [Windows Cloud Automation Engineer](https://github.com/cahcommercial/fuse-kata-devops/blob/master/README.md#windows-cloud-automation-engineer)
 
 ## Linux Cloud Automation Engineer
 
@@ -18,7 +18,7 @@
 In this section you need to create an Ubuntu AWS EC2 instance where the following sections' artifacts will be deployed to.
 *    Build an amazon node (t2.micro is sufficient) using Ubuntu 14.04 with a public IP address 
 *    Secure it (aside from your local ip or jump box)
-**    Expose ports 22, 80, and 8080 to the following IP: 52.7.76.128
+* 1.    Expose ports 22, 80, and 8080 to the following IP: 52.7.76.128
 *  Create a local account which has the ability to login via SSH and sudo to root.  This account will be used to verify the configurations of the host.
 
 ## Windows Cloud Automation Engineer
