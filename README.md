@@ -7,8 +7,8 @@
 * Spend no more than two hours on tha kata.
 
 ## Available Kata's
-* [Linux Cloud Automation Engineer](https://github.com/cahcommercial/fuse-kata-devops/blob/master/README.md#linux-cloud-automation-engineer) 
-* [Windows Cloud Automation Engineer](https://github.com/cahcommercial/fuse-kata-devops/blob/master/README.md#windows-cloud-automation-engineer)
+* [Linux Cloud Automation Engineer](https://github.com/cahcommercial/fuse-kata-devops/blob/master/README.md#linux-cloud-automation-engineer---kata-instructions) 
+* [Windows Cloud Automation Engineer](https://github.com/cahcommercial/fuse-kata-devops/blob/master/README.md#windows-cloud-automation-engineer---kata-instructions)
 
 ## Linux Cloud Automation Engineer - Kata Instructions
 
