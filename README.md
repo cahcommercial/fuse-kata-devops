@@ -1,2 +1,1 @@
-# fuse-kata-devops
-DevOps Automation Engineer Kata
+# Fuse DevOps Automation Engineer Kata
