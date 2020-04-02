@@ -2,7 +2,7 @@
 
 * All kata requirements do not need to be coded in order for the kata to be submitted, however requirements implemented 
   should be done so using best practices.
-* This is a showcase of skill,not speed.
+* This is a showcase of skill, not speed.
 * When submitting, please let us know what kata requirements were implemented.
 * Spend no more than two hours on tha kata.
 
